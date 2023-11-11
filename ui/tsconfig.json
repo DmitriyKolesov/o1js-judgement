@@ -4,7 +4,7 @@
     "target": "es2020",
     "module": "es2022",
     "lib": ["dom", "esnext"],
-    "strict": true,
+    "strict": false,
     "strictPropertyInitialization": false, // to enable generic constructors, e.g. on CircuitValue
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -24,4 +24,3 @@
 	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
 	// from the referenced tsconfig.json - TypeScript does not merge them in
 }
-  
