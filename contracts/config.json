@@ -1,4 +1,35 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "judgement": {
+      "url": "proxy.berkeley.judgement.com/graphql",
+      "keyPath": "keys/judgement.json",
+      "feepayerKeyPath": "/Users/dmitriy/.cache/zkapp-cli/keys/test-mina.json",
+      "feepayerAlias": "test-mina",
+      "fee": "0.1"
+    },
+    "judgement-1": {
+      "url": "proxy.judgement.minaexplorer.com/graphql",
+      "keyPath": "keys/judgement-1.json",
+      "feepayerKeyPath": "/Users/dmitriy/.cache/zkapp-cli/keys/test-mina.json",
+      "feepayerAlias": "test-mina",
+      "fee": "0.1"
+    },
+    "judgement-test": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/judgement-test.json",
+      "feepayerKeyPath": "/Users/dmitriy/.cache/zkapp-cli/keys/test-mina.json",
+      "feepayerAlias": "test-mina",
+      "fee": "0.1",
+      "smartContract": "Add"
+    },
+    "berkeley": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/berkeley.json",
+      "feepayerKeyPath": "/Users/dmitriy/.cache/zkapp-cli/keys/test-mina.json",
+      "feepayerAlias": "test-mina",
+      "fee": "0.1",
+      "smartContract": "Add"
+    }
+  }
 }
